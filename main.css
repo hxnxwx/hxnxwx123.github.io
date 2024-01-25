@@ -1,0 +1,302 @@
+/* home page*/
+.bodyHome {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #070707;
+}
+
+.headerHome {
+    background-color: #1f1f1f;
+    text-align: center;
+    padding: 1em;
+}
+
+.headerHome img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.navHome {
+    background-color: #ebeeec;
+    color: #d0d8db;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+}
+
+.navHome a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #050505;
+    margin: 0 10px;
+}
+
+section {
+    padding: 2em;
+}
+
+.footerHome {
+    background-color: #3d3e3e;
+    color: #f7f1f1;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.imgHome {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#video-container {
+    max-width: 800px;
+    margin: 0 auto 20px; 
+}
+
+iframe {
+    width: 100%;
+    height: 450px;
+}
+
+/*about us*/
+.bodyaboutus {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: url('https://www.primalstrength.com/cdn/shop/files/gym_design_Headers.jpg?v=1680779429&width=2000') center/cover no-repeat fixed;
+    color: #f6f6f9; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+}
+
+.headeraboutus {
+    text-align: center;
+    padding: 2em 0;
+}
+
+.h1aboutus {
+    margin-top: 0.5em;
+}
+
+section {
+   
+    padding: 2em;
+    background-color: rgba(25, 24, 24, 0.8);
+    border-radius: 10px;
+    text-align: left; 
+}
+
+.h2aboutus {
+    color: #333;
+}
+
+.paboutus {
+    margin-bottom: 1.5em;
+}
+
+/* classes page*/
+
+.bodyclasses {
+    font-family: 'Arial', sans-serif;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+   
+}
+
+.headerclasses {
+    background-color: #060606;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.sectionclasses {
+    padding: 20px;
+    width: auto;
+}
+
+.class-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: -20px; 
+}
+
+.class-card {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px; 
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.class-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+        /*membership*/
+
+        .bodymembership {
+            margin: 0;
+            padding: 0;
+            background: url('https://images.wallpaperscraft.com/image/single/gym_dumbbells_inventory_219519_1280x720.jpg') no-repeat center center fixed; 
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .headermembership {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 1em 0;
+        }
+
+        .h1membership {
+            color: white;
+            text-align: center;
+        }
+
+        .mainmembership {
+            padding: 2em 0;
+            color: white;
+        }
+
+        .join-now {
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+            padding: 2em;
+            text-align: center;
+            width: 60%;
+            margin: auto;
+        }
+
+        .join-now img {
+            display: block;
+            margin: auto;
+            cursor: zoom-in;
+            background-color: hsl(0, 0%, 90%);
+            transition: background-color 300ms;
+            border-radius: 10px;
+        }
+
+        .formmembership {
+            margin-top: 20px;
+            display: grid;
+            gap: 10px;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .labelmembership {
+            font-weight: bold;
+        }
+
+        .inputmembership {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 100%;
+        }
+
+        .buttonmembership {
+            padding: 10px;
+            background-color: #9ba7a9;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }  
+
+        /*contact us*/
+
+        .bodycontact {
+            margin: 0;
+            padding: 0;
+            background: url('https://www.primalstrength.com/cdn/shop/files/gymdesign_render_Two_collumn_grid_cb1b5850-fa8e-4a7b-a2b3-190c2e45facd.jpg?v=1680719688&amp;width=1500') no-repeat center center fixed; 
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        .containercontact {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .headercontact {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 1em 0;
+        }
+
+        .h1contact {
+            color: white;
+            text-align: center;
+        }
+
+        .maincontact {
+            padding: 2em 0;
+            color: #f9f7f7;
+        }
+
+        .contact-us {
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+            padding: 2em;
+            text-align: center;
+            width: 60%;
+            margin: auto;
+        }
+
+        .formcontact {
+            margin-top: 20px;
+            display: grid;
+            gap: 10px;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .labelcontact {
+            font-weight: bold;
+        }
+
+        .inputcontact, textarea {
+            padding: 8px;
+            border: 1px solid #0e0d0d;
+            border-radius: 4px;
+            width: 100%;
+        }
+
+        .buttoncontact {
+            padding: 10px;
+            background-color: #0a0b0a;
+            color: white;
+            border: none;
+
+        }
+
+         .contact-info {
+            text-align: left;
+            margin-top: 30px;
+            border-radius: 4px;
+           cursor: pointer;
+    }
+
+   
+
